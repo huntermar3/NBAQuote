@@ -1,0 +1,126 @@
+.reset-button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.reset-button:hover,
+.reset-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.reset-button:active {
+  opacity: .5;
+}
+
+.quote-button {
+    background: green;
+    border: 1px solid green;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 15px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .quote-button:hover,
+  .quote-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: green
+  }
+  
+  .quote-button:active {
+    opacity: .5;
+  }
+
+  button {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+ body{
+    background-image: url(assets/ant.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+    opacity: 1;
+
+}
+
+#output_string {
+        font-size: 2rem;
+        text-align: center;
+        font-family:monospace;
+        color: white;
+        background: black;
+        margin-bottom: 400px;
+        margin: 20px;
+        border: 3px solid #7C8363;
+        border-radius: 3px; 
+        font-weight: bold;
+}
+
+.buttons-container {
+    text-align: center;
+  }
+
+
+
